@@ -1,0 +1,21 @@
+Base Traits:
+Name - Name
+Cost - Integer
+Health - Integer
+Shield on/off - Boolean
+Shield health - Integer
+
+Damage resistance:
+Normal damage (Melee/ranged) - Integer (0 - 99)
+Magic damage - Integer (0 - 99)
+Fire damage - Integer (0 - 99)
+Earth damage - Integer (0 - 99)
+water damage - Integer (0 - 99)
+air damage - Integer (0 - 99)
+Poison damage - Integer (0 - 99)
+
+
+Traits:
+Can attack - Boolean
+Melee - Boolean
+ranged - Boolean
