@@ -1,21 +1,24 @@
+On every tower:
+
 Base Traits:
 Name - Name
 Cost - Integer
 Health - Integer
+Health regen (HP per second) - Integer
 Shield on/off - Boolean
 Shield health - Integer
 
 Damage resistance:
-Normal damage (Melee/ranged) - Integer (0 - 99)
-Magic damage - Integer (0 - 99)
-Fire damage - Integer (0 - 99)
-Earth damage - Integer (0 - 99)
-water damage - Integer (0 - 99)
-air damage - Integer (0 - 99)
-Poison damage - Integer (0 - 99)
+Normal damage (Melee/ranged) - Integer % (0 - 99)
+Magic damage - Integer % (0 - 99)
+Fire damage - Integer % (0 - 99)
+Earth damage - Integer % (0 - 99))
+water damage - Integer % (0 - 99)
+air damage - Integer % (0 - 99)
+Poison damage - Integer % (0 - 99)
+Corruption damage - Integer % (0 - 99)
 
-
-Traits:
+Basic Traits:
 Can attack - Boolean
 Melee - Boolean
 ranged - Boolean
