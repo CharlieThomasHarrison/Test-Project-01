@@ -1,4 +1,4 @@
-On every tower:
+Tower Traits
 
 Base Traits:
 Name - Name
@@ -8,7 +8,7 @@ Health regen (HP per second) - Integer
 Shield on/off - Boolean
 Shield health - Integer
 
-Damage resistance:
+Damage resistance Traits:
 Normal damage (Melee/ranged) - Integer % (0 - 99)
 Magic damage - Integer % (0 - 99)
 Fire damage - Integer % (0 - 99)
@@ -18,7 +18,26 @@ air damage - Integer % (0 - 99)
 Poison damage - Integer % (0 - 99)
 Corruption damage - Integer % (0 - 99)
 
-Basic Traits:
+Offensive Traits:
 Can attack - Boolean
 Melee - Boolean
-ranged - Boolean
+Melee damage - Integer 
+Melee range - Integer
+Ranged - Boolean
+Range damage - Integer
+Ranged range - Integer
+
+Tower components
+
+Buff component:
+Buff other towers - Boolean
+Traits buffed - Varable?
+Traits buffed amount - Integer
+
+
+Shield component:
+Shield other towers - Boolean
+Shield amount - Integer
+Shield recharge - Boolean
+Shield recharge rate (Per second) - Integer
+
