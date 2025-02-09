@@ -1,4 +1,4 @@
-Tower Traits
+										Tower Traits
 
 Base Traits:
 Name - Name
@@ -7,14 +7,15 @@ Health - Integer
 Health regen (HP per second) - Integer
 Shield on/off - Boolean
 Shield health - Integer
+Tier - Integer
 
 Damage resistance Traits:
 Normal damage (Melee/ranged) - Integer % (0 - 99)
 Magic damage - Integer % (0 - 99)
-Fire damage - Integer % (0 - 99)
-Earth damage - Integer % (0 - 99))
-water damage - Integer % (0 - 99)
-air damage - Integer % (0 - 99)
+-Fire damage - Integer % (0 - 99)
+-Earth damage - Integer % (0 - 99)
+-water damage - Integer % (0 - 99)
+-air damage - Integer % (0 - 99)
 Poison damage - Integer % (0 - 99)
 Corruption damage - Integer % (0 - 99)
 
@@ -27,17 +28,69 @@ Ranged - Boolean
 Range damage - Integer
 Ranged range - Integer
 
-Tower components
+Ability Traits:
+Make resource - Boolean
+Buff towers - Boolean
+Shield tower - Boolean
+Spawn creeps - Boolean
+Debuff enemies - Boolean
 
-Buff component:
-Buff other towers - Boolean
+
+	Attack:
+
+Melee:
+
+Point to point Ranged:
+
+Target Ranged:
+
+											Tower components
+
+	Buffs:
+
+Buff component (Self):
 Traits buffed - Varable?
 Traits buffed amount - Integer
 
+Buff component (others):
+Buff Range - Integer
+Traits buffed - Varable?
+Traits buffed amount - Integer
 
-Shield component:
+	Shields:
+
+Shield component (Self):
 Shield other towers - Boolean
 Shield amount - Integer
 Shield recharge - Boolean
 Shield recharge rate (Per second) - Integer
+
+Damage reflex component(Self):
+Reflex Normal damage Integer - Integer % (0 - 99)
+Reflex Magic damage Integer - Integer % (0 - 99)
+Reflex Poison damage Integer - Integer % (0 - 99)
+Corruption damage Integer - Integer % (0 - 99)
+
+
+
+	Debuffs:
+
+Slows
+
+Attack speed
+
+Attack Damage
+
+Confusion
+
+Turn enemies
+
+ 
+
+
+
+
+
+
+
 
