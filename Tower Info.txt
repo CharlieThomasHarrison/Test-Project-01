@@ -85,7 +85,12 @@ Confusion
 
 Turn enemies
 
- 
+	
+	Weather Control:
+
+	Trap thrower:
+
+
 
 
 
